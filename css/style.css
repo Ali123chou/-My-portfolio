@@ -295,7 +295,7 @@ h6 {
   font-family: "Circular Std", sans-serif;
   margin: 0px;
   font-weight: 700;
-  color: #252626;
+  color: #211e3b;
 }
 
 h1 {
@@ -1381,7 +1381,7 @@ p {
 }
 
 #scrollUp {
-  background-color: #086ad7;
+  background-color: #252626;
   border-radius: 50%;
   bottom: 20px;
   color: #ffffff;
@@ -2336,7 +2336,7 @@ a img.aligncenter {
   padding: 20px 40px;
   border-radius: 5px;
   font-size: 14px;
-  background-color: #086ad7;
+  background-color: #252626;
   border: 1px solid #086ad7;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -3091,7 +3091,7 @@ header.header-3 .side-toggle-menu {
   right: 0;
   width: 8%;
   position: absolute;
-  background-color: #252626;
+  background-color: #211e3b;
   color: #fff;
   height: 100%;
   font-size: 32px;
@@ -3107,7 +3107,7 @@ header.header-3 .side-toggle-menu i {
   left: 32%;
 }
 header.header-3 .side-toggle-menu:hover {
-  background-color: #086ad7;
+  background-color: #252626;
   color: #fff;
   cursor: pointer;
 }
@@ -3156,7 +3156,7 @@ header.header-3 .single-menu-box .icon {
   overflow: hidden;
   font-size: 42px;
   line-height: 1;
-  color: #086ad7;
+  color: #252626;
   margin-right: 20px;
 }
 @media (max-width: 1600px) {
@@ -3210,7 +3210,7 @@ header.header-3 .middle-header-wraper {
   }
 }
 header.header-3 .main-menu-wrapper {
-  background-color: #086ad7;
+  background-color: #252626;
   margin-bottom: -40px;
   z-index: 999;
   position: relative;
@@ -3247,7 +3247,7 @@ header.header-3 .main-menu ul > li > ul {
   position: absolute;
   top: 100%;
   width: 230px;
-  background-color: #086ad7;
+  background-color: #252626;
   left: 0;
   z-index: 999;
   -webkit-box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
@@ -3418,7 +3418,7 @@ header.header-4 .main-menu ul > li > a i {
   margin-left: 5px;
 }
 header.header-4 .main-menu ul > li:hover > a {
-  color: #086ad7;
+  color: #252626;
 }
 header.header-4 .main-menu ul > li:hover > ul {
   opacity: 1;
@@ -3430,7 +3430,7 @@ header.header-4 .main-menu ul > li > ul {
   position: absolute;
   top: 100%;
   width: 230px;
-  background-color: #086ad7;
+  background-color: #252626;
   left: 0;
   z-index: 999;
   -webkit-box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
@@ -3870,10 +3870,6 @@ header.header-5 .main-header-wraper .header-search.show .search-box {
 }
 header.header-5 .main-header-wraper .header-search.show .search-box .form-group:before {
   width: 100%;
-}
-header.stop .top-header {
-  -webkit-transform: translate3d(0, -100%, 0);
-  transform: translate3d(0, -100%, 0);
 }
 
 .lan-select {
@@ -5036,38 +5032,6 @@ header.stop .top-header {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-.hero-wrapper .banner-content a::after {
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  clear: both;
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0%;
-  left: -51%;
-  width: 50%;
-  height: 100%;
-  background-color: rgba(0, 11, 44, 0.3333333333) !important;
-}
-.hero-wrapper .banner-content a::before {
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  clear: both;
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0%;
-  right: -51%;
-  width: 50%;
-  height: 100%;
-  background-color: rgba(0, 11, 44, 0.3333333333) !important;
-}
-.hero-wrapper .banner-content a:hover::before {
-  right: 0%;
-}
-.hero-wrapper .banner-content a:hover::after {
-  left: 0%;
-}
 @media (max-width: 500px) {
   .hero-wrapper .banner-content a {
     text-align: center !important;
@@ -5076,11 +5040,11 @@ header.stop .top-header {
 .hero-wrapper .dots-element {
   position: absolute;
   top: 10%;
-  left: 10%;
+  left: 3% !important;
   -webkit-animation: movebounce 4s ease-in-out infinite;
           animation: movebounce 4s ease-in-out infinite;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .hero-wrapper .dots-element {
     display: none;
   }
@@ -5090,7 +5054,7 @@ header.stop .top-header {
   bottom: 0%;
   left: 0%;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .hero-wrapper .banner-element {
     display: none !important;
   }
